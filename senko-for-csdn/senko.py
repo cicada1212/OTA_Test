@@ -6,7 +6,8 @@ gc.collect()
 
 class Senko:
     #https://gitcode.net/jd3096/micropython-ota-test.git
-    raw = "https://github.com/cicada1212/blob"
+    raw = "https://raw.githubusercontent.com"
+    github = "https://github.com"
     #github = "https://gitcode.net"
 
     def __init__(self, user, repo, url=None, branch="main", working_dir="app", files=["boot.py", "main.py"], headers={}):
