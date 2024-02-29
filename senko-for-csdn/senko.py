@@ -9,7 +9,7 @@ class Senko:
     raw = "https://github.com/cicada1212/OTA_Test.git"
     #github = "https://gitcode.net"
 
-    def __init__(self, user, repo, url=None, branch="master", working_dir="app", files=["boot.py", "main.py"], headers={}):
+    def __init__(self, user, repo, url=None, branch="main", working_dir="app", files=["boot.py", "main.py"], headers={}):
         """Senko OTA agent class.
 
         Args:
